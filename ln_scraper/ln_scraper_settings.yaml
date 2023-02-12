@@ -2,7 +2,6 @@
 SimpleDB:
   Domain: multifamily-properties
 LoopNet:
-  pageguid: e6ed0477-2ae9-4197-ad37-a8df4c799cbb
   criteria:
     LNPropertyTypes: 8
     PropertyTypes: 0
@@ -19,9 +18,9 @@ LoopNet:
     ShoppingCenterTypes: 0
     ApartmentStyleTypes: 0
     Country: US
-    State: TX
+    State: MD
     Market: ''
-    MSA: 
+    MSA:
     County: ''
     City: ''
     PostalCode: ''

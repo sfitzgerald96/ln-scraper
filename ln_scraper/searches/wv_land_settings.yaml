@@ -1,0 +1,1988 @@
+---
+LoopNet:
+  criteria:
+    LNPropertyTypes: 512
+    LNIndustrialSubtypes: 0
+    LNRetailSubtypes: 0
+    LNShoppingCenterSubtypes: 0
+    LNMultiFamilySubtypes: 0
+    LNSpecialtySubtypes: 0
+    LNOfficeSubtypes: 0
+    LNHealthCareSubtypes: 0
+    LNHospitalitySubtypes: 0
+    LNSportsAndEntertainmentSubtypes: 0
+    LNLandSubtypes: 0
+    PropertyTypes: 4
+    HospitalitySubtypes: 0
+    IndustrialSubtypes: 0
+    LandTypes: 0
+    OfficeSubtypes: 0
+    GeneralRetailSubtypes: 0
+    FlexSubtypes: 0
+    SportsAndEntertainmentSubtypes: 0
+    SpecialtySubtypes: 0
+    MultifamilySubtypes: 0
+    HealthcareSubtypes: 0
+    ShoppingCenterTypes: 0
+    ApartmentStyleTypes: 0
+    Country: US
+    Region: ''
+    State: MD
+    Market:
+    MSA:
+    County:
+    City: ''
+    PostalCode:
+    GeographyFilters:
+    - ID:
+      BoundingBox:
+      - -79.4871439
+      - 37.91205
+      - -75.0458981
+      - 39.723143
+      Centroid:
+      - -77.266521
+      - 38.8175965
+      Display: Maryland
+      TypeaheadDisplay: Maryland - USA
+      GeographyId: 21
+      Code: MD
+      GeographyType: 1
+      Radius: 0
+      RadiusLengthMeasure: 0
+      SubmarketPropertyType: 0
+      Address:
+      MatchType: 11
+    PageLocationLabel: MD
+    TypeaheadLocationLabel: Maryland - USA
+    IncludeProximityCities: false
+    AddressLine:
+    Distance: 0
+    Radius:
+    CoordinateBounds:
+    Polygon:
+    HasValidCoordinates:
+    BuildingClass: 0
+    BuildingSizeUom: SquareFeet
+    LotSizeUom: Acres
+    SubCategoryList:
+    - 101
+    - 102
+    - 105
+    - 501
+    - 917
+    - 503
+    - 504
+    - 505
+    - 507
+    - 508
+    - 509
+    - 512
+    - 513
+    Editor: Universal
+    PreserveAddressForRadiusSavedSearch: false
+    ListingSearchType: 1
+    OnMarketDateRange:
+    Keywords:
+    Sorting: []
+    LoopLinkForLeaseDefaultSorting: []
+    LoopLinkForSaleDefaultSorting: []
+    LoopLinkForSaleAndLeaseDefaultSorting: []
+    PropertyGroupId:
+    HasMultipleLocations: false
+    IsForSale: true
+    PriceRangeMin:
+    PriceRangeMax:
+    BuildingSizeRangeMin:
+    BuildingSizeRangeMax:
+    PriceRangeCurrency: USD
+    PriceRangeRateType: Total
+    LotSizeRangeMin:
+    LotSizeRangeMax:
+    UnitCountRangeMin:
+    UnitCountRangeMax:
+    CapRateRangeMin:
+    CapRateRangeMax:
+    YearBuiltRangeMin:
+    YearBuiltRangeMax:
+    TermLengthRangeMin:
+    TermLengthRangeMax:
+    NetLeased: false
+    InContract: true
+    Distressed: false
+    Auction: true
+    IsTenXAuctions: false
+    AuctionIds:
+    Single: false
+    Multiple: false
+    InvestmentTypeCore: false
+    InvestmentTypeValueAdd: false
+    InvestmentTypeOpportunistic: false
+    InvestmentTypeTripleNet: false
+    InvestmentTypeOpportunityZone: false
+    AuctionAssetTypeProperties: false
+    AuctionAssetTypeNotes: false
+    AuctionFinanceTypeFinancing:
+    AuctionFinanceTypeBrokerCoOp:
+    BusinessForSale: true
+    VacantOwner: true
+    Investment: true
+    InOpportunityZone:
+    CondosFilter: 0
+    PortfoliosFilter: 0
+    ShoppingCenterFilter: 0
+    BuildingParkFilter: 0
+    IsForLease: false
+    LeaseRateRangeMin:
+    LeaseRateRangeMax:
+    SpaceAvailableRangeMin:
+    SpaceAvailableRangeMax:
+    LeaseRateTerm:
+    SpaceAvailableUom:
+    LeaseRateCurrency:
+    LeaseRatePerSizeUom:
+    SubLease: false
+    RegionalMarket:
+    SubMarket:
+    MoveInDateIndicator: 0
+    MoveInDateEnteredType:
+    MoveInDateEnteredRangeMin:
+    MoveInDateEnteredRangeMax:
+    UseClassTypes: 0
+    SpaceLeaseTypes: 0
+    ListingId:
+    DateIndicator: 0
+    DateEnteredRangeMin: ''
+    DateEnteredRangeMax: ''
+    MinimumDate: 01/01/0001
+    DateEnteredType: RT
+    DateFormat: MM/dd/yyyy
+    ViewMode: None
+    ListingIdPinClick:
+    IsUserFromUS: true
+    ForceRemoveBoundary: false
+    BoundsChangedViaMapInteraction: false
+    AgentFirstName:
+    AgentLastName:
+    Currency:
+    ListingType: 1
+    IsAuctionsOnly: false
+    ResultLimit: 500
+    PageNumber: 1
+    PageSize: 20
+    Timeout: 0
+    Origin: 1
+    StateKey: 47a2176fb570bab1fe9676718561f6ce
+  noResultsState:
+    Show: false
+    ShowAlternativeSearch: false
+    AlternativeSearchResultCount:
+    AlternativeSearchUrl:
+    ShowNearbySearch: false
+    NearbyResultMessage:
+    NoResultsMessage:
+  CategoriesFS:
+    propertyTypes:
+    - CategoryName: Office
+      CategoryID: 0
+      CategoryOrder: 1
+      CategoryBitFlagID: 32
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory:
+      - CategoryName: Industrial Live/Work
+        CategoryID: 0
+        CategoryOrder: 1
+        CategoryBitFlagID: 1
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Loft/Creative Space
+        CategoryID: 0
+        CategoryOrder: 2
+        CategoryBitFlagID: 2
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Medical
+        CategoryID: 0
+        CategoryOrder: 4
+        CategoryBitFlagID: 4
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Office Live/Work Unit
+        CategoryID: 0
+        CategoryOrder: 32
+        CategoryBitFlagID: 32
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Office/Residential
+        CategoryID: 0
+        CategoryOrder: 64
+        CategoryBitFlagID: 64
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Office/Storefront Retail
+        CategoryID: 0
+        CategoryOrder: 16
+        CategoryBitFlagID: 16
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Telecom Hotel/Data Hosting
+        CategoryID: 0
+        CategoryOrder: 128
+        CategoryBitFlagID: 128
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      Selected: false
+    - CategoryName: Industrial
+      CategoryID: 0
+      CategoryOrder: 2
+      CategoryBitFlagID: 1
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory:
+      - CategoryName: Distribution
+        CategoryID: 0
+        CategoryOrder: 2
+        CategoryBitFlagID: 2
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Flex
+        CategoryID: 0
+        CategoryOrder: 1
+        CategoryBitFlagID: 1
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Manufacturing
+        CategoryID: 0
+        CategoryOrder: 8
+        CategoryBitFlagID: 8
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Other Industrial
+        CategoryID: 0
+        CategoryOrder: 1024
+        CategoryBitFlagID: 1024
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: R&D
+        CategoryID: 0
+        CategoryOrder: 16
+        CategoryBitFlagID: 16
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Refrigeration/Cold Storage
+        CategoryID: 0
+        CategoryOrder: 32
+        CategoryBitFlagID: 32
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Service
+        CategoryID: 0
+        CategoryOrder: 64
+        CategoryBitFlagID: 64
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Showroom
+        CategoryID: 0
+        CategoryOrder: 128
+        CategoryBitFlagID: 128
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Truck Terminal
+        CategoryID: 0
+        CategoryOrder: 256
+        CategoryBitFlagID: 256
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Warehouse
+        CategoryID: 0
+        CategoryOrder: 512
+        CategoryBitFlagID: 512
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      Selected: false
+    - CategoryName: Retail
+      CategoryID: 0
+      CategoryOrder: 3
+      CategoryBitFlagID: 2
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory:
+      - CategoryName: Bank
+        CategoryID: 0
+        CategoryOrder: 1
+        CategoryBitFlagID: 1
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Day Care Facility/Nursery
+        CategoryID: 0
+        CategoryOrder: 2
+        CategoryBitFlagID: 2
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Drug Store
+        CategoryID: 0
+        CategoryOrder: 4
+        CategoryBitFlagID: 4
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Freestanding
+        CategoryID: 0
+        CategoryOrder: 8
+        CategoryBitFlagID: 8
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Grocery/Convenience Store
+        CategoryID: 0
+        CategoryOrder: 16
+        CategoryBitFlagID: 16
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Other Retail
+        CategoryID: 0
+        CategoryOrder: 8192
+        CategoryBitFlagID: 8192
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Service/Gas Station
+        CategoryID: 0
+        CategoryOrder: 128
+        CategoryBitFlagID: 128
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Showroom
+        CategoryID: 0
+        CategoryOrder: 512
+        CategoryBitFlagID: 512
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Storefront
+        CategoryID: 0
+        CategoryOrder: 1024
+        CategoryBitFlagID: 1024
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Storefront Retail/Office
+        CategoryID: 0
+        CategoryOrder: 2048
+        CategoryBitFlagID: 2048
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Storefront Retail/Residential
+        CategoryID: 0
+        CategoryOrder: 4096
+        CategoryBitFlagID: 4096
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Vehicle Related
+        CategoryID: 0
+        CategoryOrder: 256
+        CategoryBitFlagID: 256
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      Selected: false
+    - CategoryName: Restaurant
+      CategoryID: 0
+      CategoryOrder: 4
+      CategoryBitFlagID: 2048
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory:
+      Selected: false
+    - CategoryName: Shopping Center
+      CategoryID: 0
+      CategoryOrder: 5
+      CategoryBitFlagID: 4
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory:
+      - CategoryName: Airport Retail
+        CategoryID: 0
+        CategoryOrder: 1
+        CategoryBitFlagID: 1
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Community Center
+        CategoryID: 0
+        CategoryOrder: 2
+        CategoryBitFlagID: 2
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Lifestyle Center
+        CategoryID: 0
+        CategoryOrder: 4
+        CategoryBitFlagID: 4
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Neighborhood Center
+        CategoryID: 0
+        CategoryOrder: 8
+        CategoryBitFlagID: 8
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Outlet Center
+        CategoryID: 0
+        CategoryOrder: 16
+        CategoryBitFlagID: 16
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Power Center
+        CategoryID: 0
+        CategoryOrder: 32
+        CategoryBitFlagID: 32
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Regional Mall
+        CategoryID: 0
+        CategoryOrder: 64
+        CategoryBitFlagID: 64
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Strip Center
+        CategoryID: 0
+        CategoryOrder: 256
+        CategoryBitFlagID: 256
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Super Regional Mall
+        CategoryID: 0
+        CategoryOrder: 512
+        CategoryBitFlagID: 512
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Theme/Festival Center
+        CategoryID: 0
+        CategoryOrder: 128
+        CategoryBitFlagID: 128
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      Selected: false
+    - CategoryName: Multifamily
+      CategoryID: 0
+      CategoryOrder: 6
+      CategoryBitFlagID: 8
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory:
+      - CategoryName: Dormitory
+        CategoryID: 0
+        CategoryOrder: 16
+        CategoryBitFlagID: 16
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Garden
+        CategoryID: 0
+        CategoryOrder: 1
+        CategoryBitFlagID: 1
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: High-Rise
+        CategoryID: 0
+        CategoryOrder: 8
+        CategoryBitFlagID: 8
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Low-Rise
+        CategoryID: 0
+        CategoryOrder: 2
+        CategoryBitFlagID: 2
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Manufactured Housing/Mobile Home
+        CategoryID: 0
+        CategoryOrder: 32
+        CategoryBitFlagID: 32
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Mid-Rise
+        CategoryID: 0
+        CategoryOrder: 4
+        CategoryBitFlagID: 4
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      Selected: false
+    - CategoryName: Specialty
+      CategoryID: 0
+      CategoryOrder: 7
+      CategoryBitFlagID: 16
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory:
+      - CategoryName: Car Wash
+        CategoryID: 0
+        CategoryOrder: 1
+        CategoryBitFlagID: 1
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Marina
+        CategoryID: 0
+        CategoryOrder: 2
+        CategoryBitFlagID: 2
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Other Specialty
+        CategoryID: 0
+        CategoryOrder: 64
+        CategoryBitFlagID: 64
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Parking
+        CategoryID: 0
+        CategoryOrder: 32
+        CategoryBitFlagID: 32
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Religious Facility
+        CategoryID: 0
+        CategoryOrder: 4
+        CategoryBitFlagID: 4
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Schools
+        CategoryID: 0
+        CategoryOrder: 16
+        CategoryBitFlagID: 16
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Self-Storage
+        CategoryID: 0
+        CategoryOrder: 8
+        CategoryBitFlagID: 8
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      Selected: false
+    - CategoryName: Health Care
+      CategoryID: 0
+      CategoryOrder: 8
+      CategoryBitFlagID: 64
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory:
+      - CategoryName: Assisted Living
+        CategoryID: 0
+        CategoryOrder: 1
+        CategoryBitFlagID: 1
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Congregate Senior Housing
+        CategoryID: 0
+        CategoryOrder: 2
+        CategoryBitFlagID: 2
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Continuing Care Retirement Community
+        CategoryID: 0
+        CategoryOrder: 4
+        CategoryBitFlagID: 4
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Hospital
+        CategoryID: 0
+        CategoryOrder: 8
+        CategoryBitFlagID: 8
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Rehabilitation Center
+        CategoryID: 0
+        CategoryOrder: 16
+        CategoryBitFlagID: 16
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Skilled Nursing Facility
+        CategoryID: 0
+        CategoryOrder: 32
+        CategoryBitFlagID: 32
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      Selected: false
+    - CategoryName: Hospitality
+      CategoryID: 0
+      CategoryOrder: 9
+      CategoryBitFlagID: 128
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory:
+      - CategoryName: Bed and Breakfast
+        CategoryID: 0
+        CategoryOrder: 2
+        CategoryBitFlagID: 64
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Hostel
+        CategoryID: 0
+        CategoryOrder: 3
+        CategoryBitFlagID: 32
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Hotel
+        CategoryID: 0
+        CategoryOrder: 1
+        CategoryBitFlagID: 1
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Serviced Apartment
+        CategoryID: 0
+        CategoryOrder: 4
+        CategoryBitFlagID: 16
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      Selected: false
+    - CategoryName: Sports & Entertainment
+      CategoryID: 0
+      CategoryOrder: 10
+      CategoryBitFlagID: 256
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory:
+      - CategoryName: Amusement Park
+        CategoryID: 0
+        CategoryOrder: 1
+        CategoryBitFlagID: 1
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Baseball Field
+        CategoryID: 0
+        CategoryOrder: 2
+        CategoryBitFlagID: 2
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Casino
+        CategoryID: 0
+        CategoryOrder: 4
+        CategoryBitFlagID: 4
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Golf / Driving Range
+        CategoryID: 0
+        CategoryOrder: 8
+        CategoryBitFlagID: 8
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Horse Stables
+        CategoryID: 0
+        CategoryOrder: 16
+        CategoryBitFlagID: 16
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Race Track
+        CategoryID: 0
+        CategoryOrder: 32
+        CategoryBitFlagID: 32
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Skating Rink
+        CategoryID: 0
+        CategoryOrder: 64
+        CategoryBitFlagID: 64
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Swimming Pool
+        CategoryID: 0
+        CategoryOrder: 128
+        CategoryBitFlagID: 128
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Theater/Concert Hall
+        CategoryID: 0
+        CategoryOrder: 256
+        CategoryBitFlagID: 256
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      Selected: false
+    - CategoryName: Land
+      CategoryID: 0
+      CategoryOrder: 11
+      CategoryBitFlagID: 512
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory:
+      - CategoryName: Agricultural
+        CategoryID: 0
+        CategoryOrder: 8
+        CategoryBitFlagID: 8
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: true
+      - CategoryName: Commercial
+        CategoryID: 0
+        CategoryOrder: 2
+        CategoryBitFlagID: 2
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: true
+      - CategoryName: Industrial
+        CategoryID: 0
+        CategoryOrder: 4
+        CategoryBitFlagID: 4
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: true
+      - CategoryName: Residential/Multifamily
+        CategoryID: 0
+        CategoryOrder: 1
+        CategoryBitFlagID: 1
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: true
+      Selected: true
+    - CategoryName: Residential Income
+      CategoryID: 0
+      CategoryOrder: 12
+      CategoryBitFlagID: 1024
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory:
+      Selected: false
+    selectAllLabel: Select All
+    PreloadTemplates: false
+    DeviceType: 0
+  CategoriesFL:
+    propertyTypes:
+    - CategoryName: Office
+      CategoryID: 0
+      CategoryOrder: 1
+      CategoryBitFlagID: 8
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory: []
+      Selected: false
+    - CategoryName: Coworking
+      CategoryID: 0
+      CategoryOrder: 2
+      CategoryBitFlagID: 4096
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory: []
+      Selected: false
+    - CategoryName: Industrial
+      CategoryID: 0
+      CategoryOrder: 3
+      CategoryBitFlagID: 2
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory: []
+      Selected: false
+    - CategoryName: Retail
+      CategoryID: 0
+      CategoryOrder: 4
+      CategoryBitFlagID: 16
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory: []
+      Selected: false
+    - CategoryName: Restaurant
+      CategoryID: 0
+      CategoryOrder: 5
+      CategoryBitFlagID: 8192
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory: []
+      Selected: false
+    - CategoryName: Flex
+      CategoryID: 0
+      CategoryOrder: 6
+      CategoryBitFlagID: 32
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory: []
+      Selected: false
+    - CategoryName: Medical
+      CategoryID: 0
+      CategoryOrder: 7
+      CategoryBitFlagID: 512
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory: []
+      Selected: false
+    - CategoryName: Land
+      CategoryID: 0
+      CategoryOrder: 8
+      CategoryBitFlagID: 4
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory: []
+      Selected: true
+    selectAllLabel: Select All
+    PreloadTemplates: false
+    DeviceType: 0
+  Categories:
+    propertyTypes:
+    - CategoryName: Office
+      CategoryID: 0
+      CategoryOrder: 1
+      CategoryBitFlagID: 32
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory:
+      - CategoryName: Industrial Live/Work
+        CategoryID: 0
+        CategoryOrder: 1
+        CategoryBitFlagID: 1
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Loft/Creative Space
+        CategoryID: 0
+        CategoryOrder: 2
+        CategoryBitFlagID: 2
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Medical
+        CategoryID: 0
+        CategoryOrder: 4
+        CategoryBitFlagID: 4
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Office Live/Work Unit
+        CategoryID: 0
+        CategoryOrder: 32
+        CategoryBitFlagID: 32
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Office/Residential
+        CategoryID: 0
+        CategoryOrder: 64
+        CategoryBitFlagID: 64
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Office/Storefront Retail
+        CategoryID: 0
+        CategoryOrder: 16
+        CategoryBitFlagID: 16
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Telecom Hotel/Data Hosting
+        CategoryID: 0
+        CategoryOrder: 128
+        CategoryBitFlagID: 128
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      Selected: false
+    - CategoryName: Industrial
+      CategoryID: 0
+      CategoryOrder: 2
+      CategoryBitFlagID: 1
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory:
+      - CategoryName: Distribution
+        CategoryID: 0
+        CategoryOrder: 2
+        CategoryBitFlagID: 2
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Flex
+        CategoryID: 0
+        CategoryOrder: 1
+        CategoryBitFlagID: 1
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Manufacturing
+        CategoryID: 0
+        CategoryOrder: 8
+        CategoryBitFlagID: 8
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Other Industrial
+        CategoryID: 0
+        CategoryOrder: 1024
+        CategoryBitFlagID: 1024
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: R&D
+        CategoryID: 0
+        CategoryOrder: 16
+        CategoryBitFlagID: 16
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Refrigeration/Cold Storage
+        CategoryID: 0
+        CategoryOrder: 32
+        CategoryBitFlagID: 32
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Service
+        CategoryID: 0
+        CategoryOrder: 64
+        CategoryBitFlagID: 64
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Showroom
+        CategoryID: 0
+        CategoryOrder: 128
+        CategoryBitFlagID: 128
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Truck Terminal
+        CategoryID: 0
+        CategoryOrder: 256
+        CategoryBitFlagID: 256
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Warehouse
+        CategoryID: 0
+        CategoryOrder: 512
+        CategoryBitFlagID: 512
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      Selected: false
+    - CategoryName: Retail
+      CategoryID: 0
+      CategoryOrder: 3
+      CategoryBitFlagID: 2
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory:
+      - CategoryName: Bank
+        CategoryID: 0
+        CategoryOrder: 1
+        CategoryBitFlagID: 1
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Day Care Facility/Nursery
+        CategoryID: 0
+        CategoryOrder: 2
+        CategoryBitFlagID: 2
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Drug Store
+        CategoryID: 0
+        CategoryOrder: 4
+        CategoryBitFlagID: 4
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Freestanding
+        CategoryID: 0
+        CategoryOrder: 8
+        CategoryBitFlagID: 8
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Grocery/Convenience Store
+        CategoryID: 0
+        CategoryOrder: 16
+        CategoryBitFlagID: 16
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Other Retail
+        CategoryID: 0
+        CategoryOrder: 8192
+        CategoryBitFlagID: 8192
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Service/Gas Station
+        CategoryID: 0
+        CategoryOrder: 128
+        CategoryBitFlagID: 128
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Showroom
+        CategoryID: 0
+        CategoryOrder: 512
+        CategoryBitFlagID: 512
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Storefront
+        CategoryID: 0
+        CategoryOrder: 1024
+        CategoryBitFlagID: 1024
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Storefront Retail/Office
+        CategoryID: 0
+        CategoryOrder: 2048
+        CategoryBitFlagID: 2048
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Storefront Retail/Residential
+        CategoryID: 0
+        CategoryOrder: 4096
+        CategoryBitFlagID: 4096
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Vehicle Related
+        CategoryID: 0
+        CategoryOrder: 256
+        CategoryBitFlagID: 256
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      Selected: false
+    - CategoryName: Restaurant
+      CategoryID: 0
+      CategoryOrder: 4
+      CategoryBitFlagID: 2048
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory:
+      Selected: false
+    - CategoryName: Shopping Center
+      CategoryID: 0
+      CategoryOrder: 5
+      CategoryBitFlagID: 4
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory:
+      - CategoryName: Airport Retail
+        CategoryID: 0
+        CategoryOrder: 1
+        CategoryBitFlagID: 1
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Community Center
+        CategoryID: 0
+        CategoryOrder: 2
+        CategoryBitFlagID: 2
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Lifestyle Center
+        CategoryID: 0
+        CategoryOrder: 4
+        CategoryBitFlagID: 4
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Neighborhood Center
+        CategoryID: 0
+        CategoryOrder: 8
+        CategoryBitFlagID: 8
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Outlet Center
+        CategoryID: 0
+        CategoryOrder: 16
+        CategoryBitFlagID: 16
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Power Center
+        CategoryID: 0
+        CategoryOrder: 32
+        CategoryBitFlagID: 32
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Regional Mall
+        CategoryID: 0
+        CategoryOrder: 64
+        CategoryBitFlagID: 64
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Strip Center
+        CategoryID: 0
+        CategoryOrder: 256
+        CategoryBitFlagID: 256
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Super Regional Mall
+        CategoryID: 0
+        CategoryOrder: 512
+        CategoryBitFlagID: 512
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Theme/Festival Center
+        CategoryID: 0
+        CategoryOrder: 128
+        CategoryBitFlagID: 128
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      Selected: false
+    - CategoryName: Multifamily
+      CategoryID: 0
+      CategoryOrder: 6
+      CategoryBitFlagID: 8
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory:
+      - CategoryName: Dormitory
+        CategoryID: 0
+        CategoryOrder: 16
+        CategoryBitFlagID: 16
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Garden
+        CategoryID: 0
+        CategoryOrder: 1
+        CategoryBitFlagID: 1
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: High-Rise
+        CategoryID: 0
+        CategoryOrder: 8
+        CategoryBitFlagID: 8
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Low-Rise
+        CategoryID: 0
+        CategoryOrder: 2
+        CategoryBitFlagID: 2
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Manufactured Housing/Mobile Home
+        CategoryID: 0
+        CategoryOrder: 32
+        CategoryBitFlagID: 32
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Mid-Rise
+        CategoryID: 0
+        CategoryOrder: 4
+        CategoryBitFlagID: 4
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      Selected: false
+    - CategoryName: Specialty
+      CategoryID: 0
+      CategoryOrder: 7
+      CategoryBitFlagID: 16
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory:
+      - CategoryName: Car Wash
+        CategoryID: 0
+        CategoryOrder: 1
+        CategoryBitFlagID: 1
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Marina
+        CategoryID: 0
+        CategoryOrder: 2
+        CategoryBitFlagID: 2
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Other Specialty
+        CategoryID: 0
+        CategoryOrder: 64
+        CategoryBitFlagID: 64
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Parking
+        CategoryID: 0
+        CategoryOrder: 32
+        CategoryBitFlagID: 32
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Religious Facility
+        CategoryID: 0
+        CategoryOrder: 4
+        CategoryBitFlagID: 4
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Schools
+        CategoryID: 0
+        CategoryOrder: 16
+        CategoryBitFlagID: 16
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Self-Storage
+        CategoryID: 0
+        CategoryOrder: 8
+        CategoryBitFlagID: 8
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      Selected: false
+    - CategoryName: Health Care
+      CategoryID: 0
+      CategoryOrder: 8
+      CategoryBitFlagID: 64
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory:
+      - CategoryName: Assisted Living
+        CategoryID: 0
+        CategoryOrder: 1
+        CategoryBitFlagID: 1
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Congregate Senior Housing
+        CategoryID: 0
+        CategoryOrder: 2
+        CategoryBitFlagID: 2
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Continuing Care Retirement Community
+        CategoryID: 0
+        CategoryOrder: 4
+        CategoryBitFlagID: 4
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Hospital
+        CategoryID: 0
+        CategoryOrder: 8
+        CategoryBitFlagID: 8
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Rehabilitation Center
+        CategoryID: 0
+        CategoryOrder: 16
+        CategoryBitFlagID: 16
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Skilled Nursing Facility
+        CategoryID: 0
+        CategoryOrder: 32
+        CategoryBitFlagID: 32
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      Selected: false
+    - CategoryName: Hospitality
+      CategoryID: 0
+      CategoryOrder: 9
+      CategoryBitFlagID: 128
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory:
+      - CategoryName: Bed and Breakfast
+        CategoryID: 0
+        CategoryOrder: 2
+        CategoryBitFlagID: 64
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Hostel
+        CategoryID: 0
+        CategoryOrder: 3
+        CategoryBitFlagID: 32
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Hotel
+        CategoryID: 0
+        CategoryOrder: 1
+        CategoryBitFlagID: 1
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Serviced Apartment
+        CategoryID: 0
+        CategoryOrder: 4
+        CategoryBitFlagID: 16
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      Selected: false
+    - CategoryName: Sports & Entertainment
+      CategoryID: 0
+      CategoryOrder: 10
+      CategoryBitFlagID: 256
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory:
+      - CategoryName: Amusement Park
+        CategoryID: 0
+        CategoryOrder: 1
+        CategoryBitFlagID: 1
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Baseball Field
+        CategoryID: 0
+        CategoryOrder: 2
+        CategoryBitFlagID: 2
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Casino
+        CategoryID: 0
+        CategoryOrder: 4
+        CategoryBitFlagID: 4
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Golf / Driving Range
+        CategoryID: 0
+        CategoryOrder: 8
+        CategoryBitFlagID: 8
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Horse Stables
+        CategoryID: 0
+        CategoryOrder: 16
+        CategoryBitFlagID: 16
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Race Track
+        CategoryID: 0
+        CategoryOrder: 32
+        CategoryBitFlagID: 32
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Skating Rink
+        CategoryID: 0
+        CategoryOrder: 64
+        CategoryBitFlagID: 64
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Swimming Pool
+        CategoryID: 0
+        CategoryOrder: 128
+        CategoryBitFlagID: 128
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      - CategoryName: Theater/Concert Hall
+        CategoryID: 0
+        CategoryOrder: 256
+        CategoryBitFlagID: 256
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: false
+      Selected: false
+    - CategoryName: Land
+      CategoryID: 0
+      CategoryOrder: 11
+      CategoryBitFlagID: 512
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory:
+      - CategoryName: Agricultural
+        CategoryID: 0
+        CategoryOrder: 8
+        CategoryBitFlagID: 8
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: true
+      - CategoryName: Commercial
+        CategoryID: 0
+        CategoryOrder: 2
+        CategoryBitFlagID: 2
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: true
+      - CategoryName: Industrial
+        CategoryID: 0
+        CategoryOrder: 4
+        CategoryBitFlagID: 4
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: true
+      - CategoryName: Residential/Multifamily
+        CategoryID: 0
+        CategoryOrder: 1
+        CategoryBitFlagID: 1
+        LoopLinkPropertyTypeBitFlagID: 0
+        SubCategory:
+        Selected: true
+      Selected: true
+    - CategoryName: Residential Income
+      CategoryID: 0
+      CategoryOrder: 12
+      CategoryBitFlagID: 1024
+      LoopLinkPropertyTypeBitFlagID: 0
+      SubCategory:
+      Selected: false
+    selectAllLabel: Select All
+    PreloadTemplates: false
+    DeviceType: 0
+  UseClasses:
+    UseClassTypes:
+    - Name: A1 (Shops)
+      Selected: false
+      Value: 1
+    - Name: A2 (Financial and Professional Services)
+      Selected: false
+      Value: 2
+    - Name: A3 (Restaurants and Cafes)
+      Selected: false
+      Value: 4
+    - Name: A4 (Drinking Establishments)
+      Selected: false
+      Value: 8
+    - Name: A5 (Hot Food Takeaway)
+      Selected: false
+      Value: 16
+    - Name: Not Specified
+      Selected: false
+      Value: 32
+    - Name: Class 1 (Shops)
+      Selected: false
+      Value: 64
+    - Name: Class 2 (Financial and Professional)
+      Selected: false
+      Value: 128
+    - Name: Class 3 (Food and Drink)
+      Selected: false
+      Value: 256
+    - Name: Sui Generis
+      Selected: false
+      Value: 512
+    - Name: Class 4 (Business)
+      Selected: false
+      Value: 1024
+    - Name: Class 5 (General Industrial)
+      Selected: false
+      Value: 2048
+    - Name: Class 6 (Storage and Distribution)
+      Selected: false
+      Value: 4096
+    - Name: Class 7 (Hotels and Hostels)
+      Selected: false
+      Value: 8192
+    - Name: Class 8 (Residential Institutions)
+      Selected: false
+      Value: 16384
+    - Name: Class 9 (Houses)
+      Selected: false
+      Value: 32768
+    - Name: Class 10 (Non Residential Institutions)
+      Selected: false
+      Value: 65536
+    - Name: Class 11 (Assembly and Leisure)
+      Selected: false
+      Value: 131072
+    - Name: B1 (Business)
+      Selected: false
+      Value: 262144
+    - Name: B2 (General Industrial)
+      Selected: false
+      Value: 524288
+    - Name: B8 (Storage and Distribution)
+      Selected: false
+      Value: 1048576
+    - Name: C1 (Hotels)
+      Selected: false
+      Value: 2097152
+    - Name: C2 (Residential Institutions)
+      Selected: false
+      Value: 4194304
+    - Name: C2A (Secure Residential Institution)
+      Selected: false
+      Value: 8388608
+    - Name: C3 (Dwellinghouses)
+      Selected: false
+      Value: 16777216
+    - Name: D1 (Non-Residential Institutions)
+      Selected: false
+      Value: 33554432
+    - Name: D2 (Assembly and Leisure)
+      Selected: false
+      Value: 67108864
+    - Name: E (Commercial, Business and Service)
+      Selected: false
+      Value: 134217728
+    - Name: F.1 (Learning and Non-Residential Institutions)
+      Selected: false
+      Value: 268435456
+    - Name: F.2 (Local Community)
+      Selected: false
+      Value: 536870912
+    UseClassLabel: Use Class
+    PreloadTemplates: false
+    DeviceType: 0
+  SpaceLeaseTypes:
+    SpaceLeaseTypes:
+    - Name: New
+      Selected: false
+      Value: 2
+    - Name: Sublease
+      Selected: false
+      Value: 4
+    - Name: Relet
+      Selected: false
+      Value: 1
+    - Name: Assignment
+      Selected: false
+      Value: 8
+    SpaceLeaseTypesLabel: Lease Type
+    PreloadTemplates: false
+    DeviceType: 0
+  LocalizationLabels:
+    AllPropertyTypeLabel: Property Types
+    MultiplePropertyTypeLabel: Multiple Types
+    AllInvestmentTypeLabel: Investment Types
+    AnnualLabel: Annual
+    MonthlyLabel: ''
+    TotalLabel: Total
+    UnitLabel: Unit
+    CurrentMapAreaLabel: Current Map Area
+    OverLabel: Over
+    UnderLabel: Under
+    TotalMonthlyLabel: Total/Mo
+    TotalYearlyLabel: Per Year
+    SFMonthlyLabel: SF/Mo
+    SFYearlyLabel: SF/Yr
+    SMMonthlyLabel: SM/Mo
+    SMYearlyLabel: SM/Yr
+    AllSpaceUseLabel: Space Use
+    MultipleSpaceUseLabel: Multiple Uses
+    SpaceSizeLabel: Available Space
+    SpaceSizeLabelForLand: Land Size
+    SpacesSizeForLandAdvancedFilterLabel: Available Lot Size
+    TotalBuildingSizeLabel: Building Size
+    BuildingSizeLabel: Bldg Size
+    BuildingSizeLabelForLand: Land Size
+    BuildingSizeLabelSecondary: Size
+    OnlyNetLeasedPropertiesLabel: Only Net-Leased Properties
+    IncludeInContractPropertiesLabel: Include Pending Sales
+    OnlyDistressedPropertiesLabel: Only Distressed Properties
+    OnlyPropertyAuctionsLabel: Only Property Auctions
+    SearchForSubleaseSpaceOnlyLabel: Search for Sublease Space only
+    AllCountriesLabel: All Countries
+    RegionLabel: Region
+    AllRegionsLabel: All Regions
+    StatesLabel: States
+    AllStatesLabel: All States
+    RegionalMarketLabel: Markets
+    ProvincesLabel: Provinces
+    AllProvincesLabel: All Provinces
+    CMALabel: CMA
+    MonthlyBudgetMinLabel: Min $
+    MonthlyBudgetMaxLabel: Max $
+    TotalPerMonthLabel: Total Per Month
+    LeaseTermMinLabel: Min Mos
+    LeaseTermMaxLabel: Max Mos
+    SpacesLabel: spaces
+    MultipleSpacesLabel: multiple space uses
+    MultiplePropertyTypesLabel: multiple property types
+    AndLabel: and
+    TripleNetLabel: Triple Net(NNN)
+    UnitsRoomsBedsRangeLabel: Units/Rooms/Beds
+    LotSizeRangeLabel: Lot Size
+    UnitRoomRangeLabel: Units/Rooms
+    MultipleAuctionSizeLabel: Multiple Sizes
+    DrawLargerAreaToSearchLabel: Please draw a larger area to search.
+    AuctionEventsLabel: Event Date
+    MultipleAuctionEventsLabel: Multiple Dates
+    UoMSquareFeetAbbr: SF
+    UoMSquareMetersAbbr: SM
+    UoMHectaresAbbr: HA
+    UoMAcresAbbr: AC
+    RegOverlayTitle1: Share with someone.
+    RegOverlayMessage1: Easily share listings with colleagues, clients, and others.
+    RegOverlayTitle2: Favorite listings.
+    RegOverlayMessage2: Receive updates when something changes and quickly find them
+      later.
+    RegOverlayTitle3: Save your search.
+    RegOverlayMessage3: Be the first to know about new listings hitting the market.
+    RegOverlayNeverMissADealTitle: Never miss a deal.
+    RegOverlayNeverMissADealMessage: Log in or sign up to save your search and be the
+      first to know about new listings hitting the market.
+    RegOverlayNeverMissADealLogInSignUpTitle: Log In or Sign Up
+    RegOverlaySSOModalTitle: Sign up or Log in to Search
+    UseClassLabel: Use Class
+    MultipleUseClassesLabel: Multiple Use Classes
+    SpaceLeaseTypeLabel: Lease Type
+    PreloadTemplates: false
+    DeviceType: 0
+  Advanced:
+    SelectedCount: 0
+    Investment: true
+    VacantOwner: true
+    DateEnteredType: RT
+    PreloadTemplates: false
+    DeviceType: 0
+  stats:
+    HasLockedPin: false
+    HasLicensedPin: false
+    ActionCodes: ''
+    RedirectToLDP: false
+    NearbyAddressSearch: false
+    NearbyAddressSearchRadius:
+  editors:
+    filter: Filter
+    map: Map
+    ignore: Ignore
+  hasSavedSearch:
+    HasSavedSearch: false
+    DisplayCallOutFrequency: 5
+    CallOutDelay: 5
+    CallOutDialog: savedSearchCallout
+    ActionTypeName: SavedSearchCallOut
+  urlState:
+    Url: https://www.loopnet.com/search/land/md/for-sale/?sk=47a2176fb570bab1fe9676718561f6ce
+    UrlTemplate: https://www.loopnet.com/search/land/md/for-sale/?sk=47a2176fb570bab1fe9676718561f6ce
+    ToggleViewUrl: https://www.loopnet.com/search/land/md/for-sale/?sk=47a2176fb570bab1fe9676718561f6ce&e=v
+    ListUrl:
+    MapUrl:
+    SingleListingSrpUrl:
+  savedSearchCallout:
+    visible: false
+    onboardingFaded: false
+  isMobile: false
+  saveSearchNonLoggedInTimer: 300000
+  neverMissADealOverlayDelayMs: 3000
+  applyAuctionSearchType: true
+  currencySymbol: USD $
+  InvestmentType:
+    investmentTypes:
+    - InvestmentTypeID: 3
+      InvestmentTypeName: Core
+      Selected: false
+    - InvestmentTypeID: 4
+      InvestmentTypeName: Value Add
+      Selected: false
+    - InvestmentTypeID: 5
+      InvestmentTypeName: Opportunistic
+      Selected: false
+    - InvestmentTypeID: 1
+      InvestmentTypeName: Triple Net(NNN)
+      Selected: false
+    selectAllLabel: Select All
+    MoreInformationLabel: More Information
+    MoreInformationContent: "\n\t\t\t<strong>Triple Net (NNN):</strong><br/>\n\t\t\tA
+      lease in which the tenant is responsible for<br/>\n\t\t\tall expenses associated
+      with their proportional<br/>\n\t\t\tshare of occupancy of the building<br/>\n\t\t\t<strong>Core:</strong><br/>\n\t\t\tOccupancy
+      is greater than or equal to 90%<br/>\n\t\t\tat time of sale<br/>\n\t\t\t<strong>Value-Add:</strong><br/>\n\t\t\tOccupancy
+      is greater than or equal to 60%<br/>\n\t\t\tand less than 90% at time of sale<br/>\n\t\t\t<strong>Opportunistic:</strong><br/>\n\t\t\tOccupancy
+      is less than 60% at time of sale\n\t\t\t"
+    PreloadTemplates: false
+    DeviceType: 0
+  AuctionEvents:
+    AuctionEventModels:
+    - AuctionEventID: 0
+      AuctionId: 182
+      AuctionTitle: 2023-Feb-13
+      AuctionEventTitle: Feb 13 - Feb 15
+      AuctionStartDate: '2023-02-13T17:00:00'
+      AuctionEndDate: '2023-02-15T17:00:00'
+      TestEvent: false
+      Expired: false
+      Selected: false
+    - AuctionEventID: 0
+      AuctionId: 183
+      AuctionTitle: 2023-Feb-27
+      AuctionEventTitle: Feb 27 - Mar 1
+      AuctionStartDate: '2023-02-27T17:00:00'
+      AuctionEndDate: '2023-03-01T17:00:00'
+      TestEvent: false
+      Expired: false
+      Selected: false
+    - AuctionEventID: 0
+      AuctionId: 184
+      AuctionTitle: 2023-Mar-13
+      AuctionEventTitle: Mar 13 - Mar 15
+      AuctionStartDate: '2023-03-13T16:00:00'
+      AuctionEndDate: '2023-03-15T16:00:00'
+      TestEvent: false
+      Expired: false
+      Selected: false
+    - AuctionEventID: 0
+      AuctionId: 185
+      AuctionTitle: 2023-Mar-20
+      AuctionEventTitle: Mar 20 - Mar 22
+      AuctionStartDate: '2023-03-20T16:00:00'
+      AuctionEndDate: '2023-03-22T16:00:00'
+      TestEvent: false
+      Expired: false
+      Selected: false
+    - AuctionEventID: 0
+      AuctionId: 186
+      AuctionTitle: 2023-Apr-3
+      AuctionEventTitle: Apr 3 - Apr 5
+      AuctionStartDate: '2023-04-03T16:00:00'
+      AuctionEndDate: '2023-04-05T16:00:00'
+      TestEvent: false
+      Expired: false
+      Selected: false
+    - AuctionEventID: 0
+      AuctionId: 187
+      AuctionTitle: 2023-Apr-17
+      AuctionEventTitle: Apr 17 - Apr 19
+      AuctionStartDate: '2023-04-17T16:00:00'
+      AuctionEndDate: '2023-04-19T16:00:00'
+      TestEvent: false
+      Expired: false
+      Selected: false
+    - AuctionEventID: 0
+      AuctionId: 188
+      AuctionTitle: 2023-May-1
+      AuctionEventTitle: May 1 - May 3
+      AuctionStartDate: '2023-05-01T16:00:00'
+      AuctionEndDate: '2023-05-03T16:00:00'
+      TestEvent: false
+      Expired: false
+      Selected: false
+    - AuctionEventID: 0
+      AuctionId: 189
+      AuctionTitle: 2023-May-15
+      AuctionEventTitle: May 15 - May 17
+      AuctionStartDate: '2023-05-15T16:00:00'
+      AuctionEndDate: '2023-05-17T16:00:00'
+      TestEvent: false
+      Expired: false
+      Selected: false
+    - AuctionEventID: 0
+      AuctionId: 190
+      AuctionTitle: 2023-Jun-5
+      AuctionEventTitle: Jun 5 - Jun 7
+      AuctionStartDate: '2023-06-05T16:00:00'
+      AuctionEndDate: '2023-06-07T16:00:00'
+      TestEvent: false
+      Expired: false
+      Selected: false
+    - AuctionEventID: 0
+      AuctionId: 191
+      AuctionTitle: 2023-Jun-20
+      AuctionEventTitle: Jun 20 - Jun 22
+      AuctionStartDate: '2023-06-20T16:00:00'
+      AuctionEndDate: '2023-06-22T16:00:00'
+      TestEvent: false
+      Expired: false
+      Selected: false
+    - AuctionEventID: 0
+      AuctionId: 192
+      AuctionTitle: 2023-Jun-26
+      AuctionEventTitle: Jun 26 - Jun 28
+      AuctionStartDate: '2023-06-26T16:00:00'
+      AuctionEndDate: '2023-06-28T16:00:00'
+      TestEvent: false
+      Expired: false
+      Selected: false
+    - AuctionEventID: 0
+      AuctionId: 193
+      AuctionTitle: 2023-Jul-10
+      AuctionEventTitle: Jul 10 - Jul 12
+      AuctionStartDate: '2023-07-10T16:00:00'
+      AuctionEndDate: '2023-07-12T16:00:00'
+      TestEvent: false
+      Expired: false
+      Selected: false
+    - AuctionEventID: 0
+      AuctionId: 194
+      AuctionTitle: 2023-Jul-24
+      AuctionEventTitle: Jul 24 - Jul 26
+      AuctionStartDate: '2023-07-24T16:00:00'
+      AuctionEndDate: '2023-07-26T16:00:00'
+      TestEvent: false
+      Expired: false
+      Selected: false
+    - AuctionEventID: 0
+      AuctionId: 195
+      AuctionTitle: 2023-Aug-7
+      AuctionEventTitle: Aug 7 - Aug 9
+      AuctionStartDate: '2023-08-07T16:00:00'
+      AuctionEndDate: '2023-08-09T16:00:00'
+      TestEvent: false
+      Expired: false
+      Selected: false
+    - AuctionEventID: 0
+      AuctionId: 196
+      AuctionTitle: 2023-Aug-21
+      AuctionEventTitle: Aug 21 - Aug 23
+      AuctionStartDate: '2023-08-21T16:00:00'
+      AuctionEndDate: '2023-08-23T16:00:00'
+      TestEvent: false
+      Expired: false
+      Selected: false
+    - AuctionEventID: 0
+      AuctionId: 197
+      AuctionTitle: 2023-Sep-5
+      AuctionEventTitle: Sep 5 - Sep 7
+      AuctionStartDate: '2023-09-05T16:00:00'
+      AuctionEndDate: '2023-09-07T16:00:00'
+      TestEvent: false
+      Expired: false
+      Selected: false
+    - AuctionEventID: 0
+      AuctionId: 198
+      AuctionTitle: 2023-Sep-18
+      AuctionEventTitle: Sep 18 - Sep 20
+      AuctionStartDate: '2023-09-18T16:00:00'
+      AuctionEndDate: '2023-09-20T16:00:00'
+      TestEvent: false
+      Expired: false
+      Selected: false
+    - AuctionEventID: 0
+      AuctionId: 199
+      AuctionTitle: 2023-Sep-25
+      AuctionEventTitle: Sep 25 - Sep 27
+      AuctionStartDate: '2023-09-25T16:00:00'
+      AuctionEndDate: '2023-09-27T16:00:00'
+      TestEvent: false
+      Expired: false
+      Selected: false
+    - AuctionEventID: 0
+      AuctionId: 200
+      AuctionTitle: 2023-Oct-9
+      AuctionEventTitle: Oct 9 - Oct 11
+      AuctionStartDate: '2023-10-09T16:00:00'
+      AuctionEndDate: '2023-10-11T16:00:00'
+      TestEvent: false
+      Expired: false
+      Selected: false
+    - AuctionEventID: 0
+      AuctionId: 201
+      AuctionTitle: 2023-Oct-23
+      AuctionEventTitle: Oct 23 - Oct 25
+      AuctionStartDate: '2023-10-23T16:00:00'
+      AuctionEndDate: '2023-10-25T16:00:00'
+      TestEvent: false
+      Expired: false
+      Selected: false
+    - AuctionEventID: 0
+      AuctionId: 202
+      AuctionTitle: 2023-Nov-6
+      AuctionEventTitle: Nov 6 - Nov 8
+      AuctionStartDate: '2023-11-06T17:00:00'
+      AuctionEndDate: '2023-11-08T17:00:00'
+      TestEvent: false
+      Expired: false
+      Selected: false
+    - AuctionEventID: 0
+      AuctionId: 203
+      AuctionTitle: 2023-Nov-13
+      AuctionEventTitle: Nov 13 - Nov 15
+      AuctionStartDate: '2023-11-13T17:00:00'
+      AuctionEndDate: '2023-11-15T17:00:00'
+      TestEvent: false
+      Expired: false
+      Selected: false
+    - AuctionEventID: 0
+      AuctionId: 204
+      AuctionTitle: 2023-Nov-27
+      AuctionEventTitle: Nov 27 - Nov 29
+      AuctionStartDate: '2023-11-27T17:00:00'
+      AuctionEndDate: '2023-11-29T17:00:00'
+      TestEvent: false
+      Expired: false
+      Selected: false
+    - AuctionEventID: 0
+      AuctionId: 205
+      AuctionTitle: 2023-Dec-11
+      AuctionEventTitle: Dec 11 - Dec 13
+      AuctionStartDate: '2023-12-11T17:00:00'
+      AuctionEndDate: '2023-12-13T17:00:00'
+      TestEvent: false
+      Expired: false
+      Selected: false
+    SelectAllLabel: Select All
+    PreloadTemplates: false
+    DeviceType: 0
+  AssetType:
+    AssetTypeList:
+    - Id: asset-type-properties
+      Label: Properties
+      Value: '1'
+      NgChecked: isAssetTypeChecked('1')
+      NgClick: assetTypeClicked('1', 'Properties')
+      Selected: false
+      Classes:
+    - Id: asset-type-notes
+      Label: Notes
+      Value: '2'
+      NgChecked: isAssetTypeChecked('2')
+      NgClick: assetTypeClicked('2', 'Notes')
+      Selected: false
+      Classes:
+  AuctionMoreFilters:
+    AuctionMoreFilters:
+    - Id: financing-available
+      Label: Financing Available
+      Value: financingavailable
+      NgChecked: auctionMoreFiltersChecked('financingavailable')
+      NgClick: auctionMoreFiltersClicked('financingavailable','Financing%20Available')
+      Selected: false
+      Classes:
+    - Id: broker-co-op-available
+      Label: Broker Co-Op Available
+      Value: brokercoopavailable
+      NgChecked: auctionMoreFiltersChecked('brokercoopavailable')
+      NgClick: auctionMoreFiltersClicked('brokercoopavailable', 'Broker%20Co-Op%20Available')
+      Selected: false
+      Classes:
+  OpenLdpInNewTab: true
+  EnableImageAutoscrollForDiamondAds: true
+  PlacardAutoscrollInactivity: 3000
+  PlacardAutoscrollHoverInactivity: 3000
+  PlacardAutoscrollInterval: 3000
+  AllowPlacardAutoscrollHoverInactivity: true
+  DisplayCurrencyCodeForUSD: false
+  FeatureToggleUserLocationCountryCode: US
+  FeatureTogglePreReleaseUK: false
+  ForceUSDCurrency: false

@@ -3,6 +3,14 @@ class Result:
         self.results_dict = results_dict
 
     @property
+    def brokerage(self):
+        return self.results_dict.get("Brokerage", None)
+
+    @property
+    def agents(self):
+        return self.results_dict.get("Agents", None)
+
+    @property
     def address(self):
         address = self.results_dict.get("Address", None)
         return address

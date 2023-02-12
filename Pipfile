@@ -6,6 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+pymongo = "*"
 requests = "*"
 beautifulsoup4 = "*"
 ruamel-yaml = "*"
