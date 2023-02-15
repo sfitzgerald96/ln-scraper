@@ -1,8 +1,10 @@
 try:
     from result import *
+    from mongo import *
     import slack
 except:
     from ln_scraper.result import *
+    from ln_scraper.mongo import *
     import ln_scraper.slack as slack
 
 import requests
@@ -17,7 +19,6 @@ class Scraper:
         self.settings = settings
         self.BASE_URL = "https://www.loopnet.com"
         self.SEARCH_URL = "%s/services/search" % self.BASE_URL
-        self.results = []
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
             'Content-Type': 'text/html; charset=UTF-8'
@@ -25,34 +26,42 @@ class Scraper:
 
     def run_scrape_job(self):
         # Execute Search API call and get HTML that represents the results
-        response = requests.post(self.SEARCH_URL, data=json.dumps(self.settings['LoopNet']), headers=self.headers)
-        if response.status_code == 200:
-            results = response.json()
-            results_html = results['SearchPlacards']['Html']
-        else:
-            print("Last status code from requests: %s" % response.status_code)
-            print("Last response from requests: %s" % response.content.decode())
-            print("Failed to get search results with given settings")
-            return False
+        db = DB('localhost', 27017)
+        while True:
+            print("Processing Page: %s" % self.settings['LoopNet']['criteria']['PageNumber'])
 
-        # Process the search results HTML with bs4
-        soup = BeautifulSoup(results_html, features="html.parser")
-        properties = soup.find_all('article')
-        if len(properties) > 0:
-            for property in properties:
-                property_url = property.find("header").find("a").get("href")
-                processed_result = self.process_search_result(property_url)
-                self.results.append(processed_result)
+            response = requests.post(self.SEARCH_URL, data=json.dumps(self.settings['LoopNet']), headers=self.headers)
+            if response.status_code == 200:
+                results = response.json()
+                results_html = results['SearchPlacards']['Html']
+            else:
+                print("Last status code from requests: %s" % response.status_code)
+                print("Last response from requests: %s" % response.content.decode())
+                print("Failed to get search results with given settings")
+                return False
 
-        pdb.set_trace()
-        for r in self.results:
-            print("tally ho!")
+            # Process the search results HTML with bs4
+            soup = BeautifulSoup(results_html, features="html.parser")
+            properties = soup.find_all('article')
+            if len(properties) > 0:
+                for property in properties:
+                    property_url = property.find("header").find("a").get("href")
+                    processed_result = self.process_search_result(property_url)
+                    db.add_one_listing(processed_result.results_dict)
+            else:
+                print("No more results on page: %s" % self.settings['LoopNet']['criteria']['PageNumber'])
+                print("Finished...")
+                break
+
+            self.settings['LoopNet']['criteria']['PageNumber'] += 1
 
     def process_search_result(self, result_url):
         result = None
         results_dict = {}
         response = requests.get(result_url, headers=self.headers)
-        if response.status_code is 200:
+        if response.status_code == 200:
+            results_dict['State'] = self.settings["FilterState"]
+            results_dict['PropertyType'] = self.settings["FilterPropertyType"]
             results_dict['PropertyURL'] = result_url
             property_html = response.text
             soup = BeautifulSoup(property_html, features="html.parser")
@@ -63,41 +72,50 @@ class Scraper:
             if match:
                 title_text = match.group()
 
-            results_dict['Address'] =  title_text
+            results_dict['Address'] = title_text
 
             # Get list of agents
             contact_form = soup.find("ul", {"id": "contact-form-contacts"})
-            results_dict['Agents'] = list(map(lambda tag: tag.attrs.get("title"), contact_form.find_all("li", {"class": "contact"})))
             try:
-                results_dict['Brokerage'] = contact_form.find("li", {"class": "contact-logo"}).attrs.get("title")
+                results_dict['Agents'] = list(map(lambda tag: tag.attrs.get("title"), contact_form.find_all("li", {"class": "contact"})))
+            except:
+                results_dict['Agents'] = ["Error"]
+
+            try:
+                results_dict['Brokerage'] = contact_form.find(re.compile(".*"), {"class": "company-name"}).get_text().strip()
             except:
                 results_dict['Brokerage'] = "Error"
 
             # Process attribute data for the result
-        #     property_data_table = soup.find("table", {"class" : "property-data"})
-        #     for row in property_data_table.find_all('tr'):
-        #         try:
-        #             cells = row.find_all('td')
-        #             for i in range(len(cells)):
-        #                 # The cells follow a pattern of Property Name --> Property Value
-        #                 if i % 2 != 0: # Property Title 
-        #                     results_dict[cells[i-1].string.strip()] = cells[i].string.strip()
-        #         except:
-        #             continue
-        #
-        #     # Process Unit Mix Information Section
-        #     property_unit_mix_table = soup.find("table", {"class" : "property-data summary"})
-        #     if property_unit_mix_table:
-        #         unit_mix_table_headers = property_unit_mix_table.find_all("th")
-        #         unit_mix_table_values = property_unit_mix_table.find_all("td")
-        #         for header_index in range(len(unit_mix_table_headers)):
-        #             header_name = unit_mix_table_headers[header_index].text.strip()
-        #             header_value = unit_mix_table_values[header_index].text.strip()
-        #             results_dict['MIX_INFO_%s' % header_name] = header_value
-        #
-        # else:
-        #     # Failed to parse, just return None and proceed
-        #     print("Failed to parse property for %s" % result_url)
+            property_data_table = soup.find("table", {"class" : "property-data"})
+            # for table_data in property_data_table.find_all('td', {"data-fact-type": re.compile(r".*")}):
+            for row in property_data_table.find_all('tr'):
+                try:
+                    cells = row.find_all('td')
+                    for i in range(len(cells)):
+                        # The cells follow a pattern of Property Name --> Property Value
+                        if i % 2 != 0: # Property Title 
+                            if cells[i-1].getText().strip() == "":
+                                continue
+                            sanitized_key = cells[i-1].getText().strip()
+                            sanitized_key = sanitized_key.replace("$", "[dollar]").replace(".", "[dot]")
+                            results_dict[sanitized_key] = cells[i].getText().strip()
+                except:
+                    continue
+
+            # Process Unit Mix Information Section
+            property_unit_mix_table = soup.find("table", {"class" : "property-data summary"})
+            if property_unit_mix_table:
+                unit_mix_table_headers = property_unit_mix_table.find_all("th")
+                unit_mix_table_values = property_unit_mix_table.find_all("td")
+                for header_index in range(len(unit_mix_table_headers)):
+                    header_name = unit_mix_table_headers[header_index].text.strip()
+                    header_value = unit_mix_table_values[header_index].text.strip()
+                    results_dict['MIX_INFO_%s' % header_name] = header_value
+
+        else:
+            # Failed to parse, just return None and proceed
+            print("Failed to parse property for %s" % result_url)
 
         result = Result(results_dict)
         return result
@@ -113,7 +131,7 @@ class Scraper:
             DomainName=self.simple_db_domain,
             ItemName=result.address,
             Attributes=attributes
-        )            
+        )
 
     def property_exists_in_db(self, result):
         # Try to get the property from SDB
